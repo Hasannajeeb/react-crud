@@ -3,7 +3,8 @@ import QuestionItem from "./QuestionItem"
 import QuestionForm from "./QuestionForm"
 import Grid from "@mui/material/Grid"
 
-const api_url = "http://localhost:3000/api/v1/questions"
+// const api_url = "http://localhost:3000/api/v1/questions"
+const api_url = "https://aqueous-retreat-05693.herokuapp.com/api/v1/questions"
 
 class QuestionList extends Component {
     constructor(props) {
